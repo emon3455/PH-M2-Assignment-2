@@ -383,13 +383,25 @@ input,textarea{
 .form button{
     width: 25%;
 }
-
 /* Contact end */
 
  /* ------------------------
          main end 
 -----------------------------*/
 
+
+/* ===========Footer start ============ */
+.footer{
+    padding: 1rem 5rem;
+    background-color: var(--bg-color1);
+}
+.footer-container{
+    width: 100%;
+    padding-top: 0.6rem;
+    text-align: center;
+    color: #424242;
+}
+/* ===========Footer end ============ */
 
 
 
