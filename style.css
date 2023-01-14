@@ -114,7 +114,69 @@
  ---------------------- */
 
 
- 
+ /* ------------------------
+         main start 
+-----------------------------*/
+
+.main{
+    padding: 0 5rem;
+}
+
+/* =============Feacher list start=========== */
+
+.feacher-list{
+    margin: 4rem 1rem;
+}
+
+.feacher-list-container{
+    display: flex;
+    padding: 0 1rem;
+    gap: 3rem;
+}
+
+.feacher-thumbnails{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat( 2 , 1fr);
+    gap: 1rem;
+}
+
+.feacher-thumbnails img{
+    width: 100%;
+}
+
+.feacher-info{
+    width: 50%;
+}
+
+.feacher-title{
+    margin-top: 25%;
+    font-size: 3rem;
+    color: #727272;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.feacher-title strong{
+    color: #131313;
+    font-weight: 600;
+}
+
+.feacher-title span{
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.feacher-description{
+    color: #727272;
+    margin-bottom: 1rem;
+}
+
+/* =============Feacher list end=========== */
+
+ /* ------------------------
+         main end 
+-----------------------------*/
 
 
 
@@ -128,6 +190,7 @@
     .btn{
         font-size: 0.8rem;
     }
+    
     /* common style end */
 
     /* header start*/
@@ -164,11 +227,39 @@
     .header-banner-info{
         width: 100%;
     }
-    
     /* banner end */
     
+
     /* ---header end----*/
 
+
+    /* main start */
+    .main{
+        padding: 0 1rem;
+    }
+    /* feacher list satrt */
+    .feacher-list{
+        margin: 2rem 0;
+    }
+    .feacher-list-container{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .feacher-thumbnails{
+        width: 100%;
+        grid-template-columns: repeat( 1 , 1fr);
+    }
+    .feacher-info{
+        width: 100%;
+        text-align: center;
+    }
+    .feacher-title{
+        margin-top: 10%;
+        font-size: 2rem;
+    }
+    /* feacher list end */
+
+    /* main end */
 
 
 }
@@ -176,21 +267,51 @@
 
 @media only screen and (min-width: 577px) and (max-width: 992px) {
 
+    .btn{
+        font-size: 0.9rem;
+    }
+
     /* header start*/
     .header{
         padding: 0 2rem;
     }
-
     .nav-bar{
         width: 50%;
     }
     /* nav end */
 
-
     .header-banner-info{
         width: 80%;
     }
-    
     /* header end*/
+
+    /* main start */
+    .main{
+        padding: 0 1rem;
+    }
+    /* feacher list satrt */
+    .feacher-list{
+        margin: 2rem 0;
+    }
+    .feacher-list-container{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .feacher-thumbnails{
+        width: 100%;
+    }
+    .feacher-info{
+        width: 100%;
+        text-align: center;
+    }
+    .feacher-title{
+        margin-top: 10%;
+        font-size: 2rem;
+    }
+    /* feacher list end */
+
+    
+
+    /* main end */
 
 }
