@@ -5,7 +5,8 @@
 /* common style start */
 :root{
     --bg-color1: #ff900e1a;
-    --primary-color: #FF900E; 
+    --primary-color: #FF900E;
+    --text-color-light: #727272;
 }
 
 *{
@@ -36,9 +37,7 @@
     padding: 0 5rem;
 }
 
-
  /* navigation style start */
-
  .navigation{
     display: flex;
     justify-content: space-between;
@@ -69,7 +68,6 @@
 
  
  /* header banner start */
-
  .header-banner{
     margin-top: 3rem;
     display: flex;
@@ -94,7 +92,7 @@
 
  .banner-description{
     font-size: 0.9rem;
-    color: #727272;
+    color: var(--text-color-light);
     margin-bottom: 1rem;
  }
 
@@ -117,7 +115,6 @@
  /* ------------------------
          main start 
 -----------------------------*/
-
 .main{
     padding: 0 5rem;
 }
@@ -152,7 +149,7 @@
 .feacher-title{
     margin-top: 25%;
     font-size: 3rem;
-    color: #727272;
+    color: var(--text-color-light);
     font-weight: 500;
     margin-bottom: 1rem;
 }
@@ -168,7 +165,7 @@
 }
 
 .feacher-description{
-    color: #727272;
+    color: var(--text-color-light);
     margin-bottom: 1rem;
 }
 /* =============Feacher list end=========== */
@@ -192,7 +189,7 @@
 }
 
 .enjoy-description{
-    color: #727272;
+    color: var(--text-color-light);
     margin-bottom: 1rem;
 }
 
@@ -209,7 +206,7 @@
 }
 .section-info{
     font-size: 0.8rem;
-    color: #727272;
+    color: var(--text-color-light);
 }
 .enjoy-feacher-thumbnail{
     width: 40%;
@@ -239,7 +236,7 @@
 
 /* Some facts start */
 .Some-facts{
-    margin: 2rem 0;
+    margin: 2rem 0 3rem 0;
 }
 .facts-container{
     display: flex;
@@ -257,7 +254,7 @@
 
 .fact-description{
     font-size: 0.9rem;
-    color: #727272;
+    color: var(--text-color-light);
     margin: 1.5rem 0;
 }
 
@@ -285,7 +282,7 @@
     margin: 0.2rem 0;
 }
 .fact-des{
-    color: #727272;
+    color: var(--text-color-light);
 }
 /* Some facts end */
 
@@ -311,7 +308,7 @@
 }
 
 .sponsor-des{
-    color: #727272;
+    color: var(--text-color-light);
     margin: 1rem 0;
 }
 .sponsors img{
@@ -337,7 +334,6 @@
 .contact-header{
     text-align: center;
     font-size: 2rem;
-    color: #000000;
 }
 
 .contact-container{
@@ -354,6 +350,9 @@
 .info-title{
     font-size: 2rem;
     margin-bottom: 1rem;
+}
+.info-title span{
+    color: #e73a3a;
 }
 .info-desc{
     font-size: 1.1rem;
@@ -372,12 +371,16 @@
     flex-direction: column;
 }
 
-input,textarea{
+input , textarea{
     width: 80%;
     padding: 0.7rem 0.3rem;
     margin: 0.5rem 0;
     border: none;
     border-radius: 5px;
+}
+
+input:focus , textarea:focus{
+    border-left: 5px solid #fa5353;
 }
 
 .form button{
@@ -558,12 +561,14 @@ input,textarea{
     .form{
         width: 100%;
     }
-
-    
-
     /* Contact end */
 
-    /* main end */
+    /*------main end-------*/
+
+    /* footer */
+    .footer{
+        padding: 1rem 2rem;
+    }
 
 
 }
@@ -659,8 +664,12 @@ input,textarea{
     }
     /* Some facts start */
 
-    
 /* main end */
+
+    /* footer */
+    .footer{
+        padding: 1rem 2rem;
+    }
 
 }
 
