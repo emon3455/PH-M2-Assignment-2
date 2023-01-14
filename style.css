@@ -384,7 +384,7 @@ input:focus , textarea:focus{
 }
 
 .form button{
-    width: 25%;
+    width: 30%;
 }
 /* Contact end */
 
@@ -634,6 +634,7 @@ input:focus , textarea:focus{
          width: 100%;
      }
      .experience{
+         margin: auto;
          padding: 2rem;
          font-size: 1.5rem;
          width: 40vw;
