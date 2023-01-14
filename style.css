@@ -171,8 +171,71 @@
     color: #727272;
     margin-bottom: 1rem;
 }
-
 /* =============Feacher list end=========== */
+
+/* ------------enjoy feacher start---------- */
+.enjoy-feacher-container{
+    display: flex;
+    justify-content: space-between;
+}
+.enjoy-feacher-info{
+    margin-top: 0.9rem;
+    width: 45%;
+}
+
+.enjoy-title{
+    border-left: 4px solid var(--primary-color);
+    font-size: 2rem;
+    width: 60%;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.enjoy-description{
+    color: #727272;
+    margin-bottom: 1rem;
+}
+
+.details{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.089);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.section-header{
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+.section-info{
+    font-size: 0.8rem;
+    color: #727272;
+}
+.enjoy-feacher-thumbnail{
+    width: 40%;
+}
+.enjoy-feacher-thumbnail img{
+    width: 100%;
+    height: 95%;
+}
+
+.experience{
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: var(--primary-color);
+    width: 15vw;
+    height: 15vh;
+    position: relative;
+    left: 47%;
+    top: -15vh;
+    border-radius: 5px;
+}
+.experience span{  
+    font-size: 1rem;
+}
+/* ----------enjoy feacher end --------------*/
 
  /* ------------------------
          main end 
@@ -228,8 +291,6 @@
         width: 100%;
     }
     /* banner end */
-    
-
     /* ---header end----*/
 
 
@@ -258,6 +319,32 @@
         font-size: 2rem;
     }
     /* feacher list end */
+
+    /* enjoy-feacher start*/
+    .enjoy-feacher-container{
+       flex-direction: column;
+    }
+    .enjoy-feacher-info{
+        width: 100%;
+    }
+    .enjoy-title{
+        font-size: 2.5rem;
+        width: 90%;
+    }
+    .enjoy-feacher-thumbnail{
+        width: 100%;
+    }
+    .experience{
+        padding: 1rem;
+        font-size: 1.5rem;
+        width: 40vw;
+        height: 15vh;
+        left: 30%;
+        top: 0vh;
+        border-radius: 5px;
+        margin: 1rem 0;
+    }
+    /* enjoy-feacher end*/
 
     /* main end */
 
@@ -310,8 +397,64 @@
     }
     /* feacher list end */
 
+    /* enjoy-feacher start*/
+    .enjoy-feacher-container{
+        flex-direction: column;
+     }
+     .enjoy-feacher-info{
+         width: 100%;
+     }
+     .enjoy-title{
+         font-size: 2.5rem;
+         width: 90%;
+     }
+     .enjoy-feacher-thumbnail{
+         width: 100%;
+     }
+     .experience{
+         padding: 2rem;
+         font-size: 1.5rem;
+         width: 40vw;
+         height: 15vh;
+         left: 30%;
+         top: 0vh;
+         margin: 2rem 0;
+     }
+     /* enjoy-feacher feacher end*/
     
+/* main end */
 
-    /* main end */
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1250px) {
+
+    .feacher-title{
+        margin-top: 15%;
+        font-size: 2.5rem;
+    }
+    
+    /* ------------enjoy feacher start---------- */
+    .enjoy-feacher-container{
+        gap: 1rem;
+    }
+    .enjoy-feacher-info{
+        width: 50%;
+    }
+    .enjoy-title{
+        width: 80%;
+    }
+    .enjoy-feacher-thumbnail{
+        width: 45%;
+    }
+
+    .experience{
+        padding: 1rem;
+        font-size: 1.5rem;
+        width: 18vw;
+        height: 13vh;
+        left: 52%;
+        top: -13vh;
+    }
+    /* ----------enjoy feacher end --------------*/
 
 }
