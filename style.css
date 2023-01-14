@@ -4,7 +4,7 @@
 
 /* common style start */
 :root{
-    --bg-color1: rgba(255, 144, 14, 0.1);
+    --bg-color1: #ff900e1a;
     --primary-color: #FF900E; 
 }
 
@@ -15,4 +15,182 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+.btn{
+    padding: 0.7rem 1rem;
+    font-size: 1.2rem;
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+}
+
 /* common style end */
+
+
+/*---------------------
+ Header design start
+ ---------------------- */
+
+.header{
+    background-color: var(--bg-color1);
+    padding: 0 5rem;
+}
+
+
+ /* navigation style start */
+
+ .navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+ }
+
+ .nav-logo .nav-title{
+    font-size: 1.8rem;
+ }
+
+ .nav-bar{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+ }
+
+ .nav-bar .nav-list{
+    list-style: none;
+ }
+
+ .nav-bar .nav-item{
+    text-decoration: none;
+    color: #424242;
+    font-size: 1.1rem;
+ }
+ /* navigation style end */
+
+ 
+ /* header banner start */
+
+ .header-banner{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .header-banner-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    text-align: center;
+ }
+
+ .banner-title{
+    font-size: 3rem;
+    margin-bottom: 0.7rem;
+ }
+
+ .banner-description{
+    font-size: 0.9rem;
+    color: #727272;
+    margin-bottom: 1rem;
+ }
+
+
+ .header-banner-thumbnail{
+    width: 100%;
+    padding: 2rem 0;
+ }
+
+ .header-banner-thumbnail img{
+    width: 100%;
+ }
+ /* header banner end */
+
+/*---------------------
+ Header design end
+ ---------------------- */
+
+
+ 
+
+
+
+
+/* -------------------------
+    Responsive design start
+------------------------------- */
+
+@media only screen and (max-width: 576px) {
+
+    .btn{
+        font-size: 0.8rem;
+    }
+    /* common style end */
+
+    /* header start*/
+    .header{
+        padding: 0 1rem;
+    }
+
+    .navigation{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-bar{
+        margin-top: 1rem;
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    /* nav end */
+
+    /* banner start */
+    
+    .banner-title{
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+    .banner-description{
+        font-size: 0.8rem;
+        color: #727272;
+    }
+    .header-banner-info{
+        width: 100%;
+    }
+    
+    /* banner end */
+    
+    /* ---header end----*/
+
+
+
+}
+
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+
+    /* header start*/
+    .header{
+        padding: 0 2rem;
+    }
+
+    .nav-bar{
+        width: 50%;
+    }
+    /* nav end */
+
+
+    .header-banner-info{
+        width: 80%;
+    }
+    
+    /* header end*/
+
+}
