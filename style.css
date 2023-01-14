@@ -237,6 +237,61 @@
 }
 /* ----------enjoy feacher end --------------*/
 
+/* Some facts start */
+.Some-facts{
+    margin: 2rem 0;
+}
+.facts-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.facts-info{
+    width: 40%;
+}
+
+.fact-title{
+    font-size: 2rem;
+}
+
+.fact-description{
+    font-size: 0.9rem;
+    color: #727272;
+    margin: 1.5rem 0;
+}
+
+.facts{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+}
+
+.fact{
+    border: 1px solid #FF900E;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 5px;
+    transition: all 1.5s ease-in-out;
+}
+
+.fact:hover{
+    background-color: #fdb25dc2;
+    color: white;
+    transform: scale(0.8) rotate(360deg);
+}
+
+.fact-title{
+    margin: 0.2rem 0;
+}
+.fact-des{
+    color: #727272;
+}
+/* Some facts end */
+
+/*  */
+
+
  /* ------------------------
          main end 
 -----------------------------*/
@@ -346,6 +401,29 @@
     }
     /* enjoy-feacher end*/
 
+    
+    /* Some facts start */
+   
+    .facts-container{
+        gap: 1rem;
+    }
+
+    .facts-info{
+        width: 100%;
+    }
+
+    .fact-description{
+        margin: 1rem 0;
+    }
+
+    .facts{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+    }
+
+    /* Some facts end */
+
     /* main end */
 
 
@@ -421,6 +499,26 @@
          margin: 2rem 0;
      }
      /* enjoy-feacher feacher end*/
+
+     
+    /* Some facts start */
+    .facts-container{
+        gap: 1rem;
+    }
+
+    .facts-info{
+        width: 80%;
+    }
+
+    .fact-description{
+        margin: 1rem 0;
+    }
+
+    .facts{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    /* Some facts start */
     
 /* main end */
 
