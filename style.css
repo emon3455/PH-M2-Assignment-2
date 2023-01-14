@@ -1,0 +1,18 @@
+/* goggle font import */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;400;700;900&display=swap');
+/* ------------------------ */
+
+/* common style start */
+:root{
+    --bg-color1: rgba(255, 144, 14, 0.1);
+    --primary-color: #FF900E; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* common style end */
